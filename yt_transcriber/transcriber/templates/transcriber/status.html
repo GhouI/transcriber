@@ -1,0 +1,16 @@
+<!-- transcriber/status.html -->
+<h1>Transcription Status</h1>
+<p>State: {{ response.state }}</p>
+<p>Status: {{ response.status }}</p>
+{% if response.state != 'SUCCESS' and response.state != 'FAILURE' %}
+    <p>Progress: {{ response.current }} / {{ response.total }} ({{ response.percent }}%)</p>
+    <script>
+        setTimeout(function() {
+            location.reload();
+        }, 5000);  // Reload every 5 seconds
+    </script>
+{% endif %}
+{% if response.state == 'SUCCESS' %}
+    <h2>Transcription Result:</h2>
+    <p>{{ response.result }}</p>
+{% endif %}

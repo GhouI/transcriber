@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}Transcribe YouTube Video{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title text-center mb-4">Transcribe YouTube Video</h1>
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        <label for="{{ form.url.id_for_label }}" class="form-label">YouTube URL</label>
+                        {{ form.url }}
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg">Transcribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var urlInput = document.getElementById('{{ form.url.id_for_label }}');
+        urlInput.classList.add('form-control');
+        urlInput.placeholder = 'Enter YouTube URL';
+    });
+</script>
+{% endblock %}

@@ -1,0 +1,385 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\abdul\Desktop\Projects\transcriber\yt_transcriber\transcriber\utils.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+applying descrambler
+finding initial function name
+Pattern failed: ytplayer\.config\s*=\s*
+Could not parse object.
+finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+finding initial function name
+finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+Finding throttling function name
+finished regex search, matched: (?:\.get\(\"n\"\)\)&&\(b=|b=String\.fromCharCode\(\d+\),c=a\.get\(b\)\)&&\(c=)([a-zA-Z0-9$]+)(?:\[(\d+)\])?\([a-zA-Z0-9]\)
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+downloading (364777 total bytes) file to C:\Users\abdul\Desktop\Projects\transcriber\yt_transcriber\media\audio\The Real REASON Her Bankai Shook the 3 Realms bleach bleachanime anime.mp4
+download remaining: 0
+download finished
+subprocess.call(['ffmpeg', '-y', '-i', 'C:\\Users\\abdul\\Desktop\\Projects\\transcriber\\yt_transcriber\\media\\audio\\The Real REASON Her Bankai Shook the 3 Realms bleach bleachanime anime.mp4', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+
+def xmap(task, it):
+    return 1
+
+
+def backend_cleanup():
+    return 1
+
+
+def process_audio_chunk(chunk_file):
+    return 1
+
+
+def chain(*args, **kwargs):
+    return 1
+
+
+def xstarmap(task, it):
+    return 1
+
+
+def audio_to_text(self, audio_file):
+    return 1
+
+
+def accumulate(self, *args, **kwargs):
+    return 1
+
+
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+
+def chunks(task, it, n):
+    return 1
+
+
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+
+def xmap(task, it):
+    return 1
+
+
+def backend_cleanup():
+    return 1
+
+
+def chain(*args, **kwargs):
+    return 1
+
+
+def xstarmap(task, it):
+    return 1
+
+
+def process_audio_chunk(chunk_file):
+    return 1
+
+
+def accumulate(self, *args, **kwargs):
+    return 1
+
+
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+
+def chunks(task, it, n):
+    return 1
+
+
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+
+def audio_to_text(self, audio_file):
+    return 1
+
+Watching for file changes with StatReloader
+matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+applying descrambler
+finding initial function name
+Pattern failed: ytplayer\.config\s*=\s*
+Could not parse object.
+finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+finding initial function name
+finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+Finding throttling function name
+finished regex search, matched: (?:\.get\(\"n\"\)\)&&\(b=|b=String\.fromCharCode\(\d+\),c=a\.get\(b\)\)&&\(c=)([a-zA-Z0-9$]+)(?:\[(\d+)\])?\([a-zA-Z0-9]\)
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+downloading (364777 total bytes) file to C:\Users\abdul\Desktop\Projects\transcriber\yt_transcriber\media\audio\The Real REASON Her Bankai Shook the 3 Realms bleach bleachanime anime.mp4
+download remaining: 0
+download finished
+subprocess.call(['ffmpeg', '-y', '-i', 'C:\\Users\\abdul\\Desktop\\Projects\\transcriber\\yt_transcriber\\media\\audio\\The Real REASON Her Bankai Shook the 3 Realms bleach bleachanime anime.mp4', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+
+def audio_to_text(self, audio_file):
+    return 1
+
+
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+
+def xmap(task, it):
+    return 1
+
+
+def process_audio_chunk(chunk_file):
+    return 1
+
+
+def backend_cleanup():
+    return 1
+
+
+def chain(*args, **kwargs):
+    return 1
+
+
+def xstarmap(task, it):
+    return 1
+
+
+def accumulate(self, *args, **kwargs):
+    return 1
+
+
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+
+def chunks(task, it, n):
+    return 1
+
+
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+
+def xmap(task, it):
+    return 1
+
+
+def backend_cleanup():
+    return 1
+
+
+def process_audio_chunk(chunk_file):
+    return 1
+
+
+def chain(*args, **kwargs):
+    return 1
+
+
+def xstarmap(task, it):
+    return 1
+
+
+def accumulate(self, *args, **kwargs):
+    return 1
+
+
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+
+def chunks(task, it, n):
+    return 1
+
+
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+
+def audio_to_text(self, audio_file):
+    return 1
+
+Watching for file changes with StatReloader
+matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+applying descrambler
+finding initial function name
+Pattern failed: ytplayer\.config\s*=\s*
+Could not parse object.
+finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+finding initial function name
+finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+Finding throttling function name
+finished regex search, matched: (?:\.get\(\"n\"\)\)&&\(b=|b=String\.fromCharCode\(\d+\),c=a\.get\(b\)\)&&\(c=)([a-zA-Z0-9$]+)(?:\[(\d+)\])?\([a-zA-Z0-9]\)
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+signature found, skip decipher
+downloading (4144010 total bytes) file to C:\Users\abdul\Desktop\Projects\transcriber\yt_transcriber\media\audio\Why The Redemption of A-Train Works.mp4
+download remaining: 0
+download finished
+subprocess.call(['ffmpeg', '-y', '-i', 'C:\\Users\\abdul\\Desktop\\Projects\\transcriber\\yt_transcriber\\media\\audio\\Why The Redemption of A-Train Works.mp4', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+
+def audio_to_text(self, audio_file):
+    return 1
+
+
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+
+def xmap(task, it):
+    return 1
+
+
+def process_audio_chunk(chunk_file):
+    return 1
+
+
+def backend_cleanup():
+    return 1
+
+
+def chain(*args, **kwargs):
+    return 1
+
+
+def xstarmap(task, it):
+    return 1
+
+
+def accumulate(self, *args, **kwargs):
+    return 1
+
+
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+
+def chunks(task, it, n):
+    return 1
+
+
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+
+def xmap(task, it):
+    return 1
+
+
+def backend_cleanup():
+    return 1
+
+
+def process_audio_chunk(chunk_file):
+    return 1
+
+
+def chain(*args, **kwargs):
+    return 1
+
+
+def xstarmap(task, it):
+    return 1
+
+
+def accumulate(self, *args, **kwargs):
+    return 1
+
+
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+
+def chunks(task, it, n):
+    return 1
+
+
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+
+def audio_to_text(self, audio_file):
+    return 1
+

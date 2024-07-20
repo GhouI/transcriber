@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Transcription Result{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-10">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title text-center mb-4">Transcription Result</h1>
+                <div class="transcription-text mb-4">
+                    {{ transcription|linebreaks }}
+                </div>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-secondary" id="copyButton">Copy to Clipboard</button>
+                    <a href="{% url 'transcribe_video' %}" class="btn btn-primary">Transcribe Another Video</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var copyButton = document.getElementById('copyButton');
+        var transcriptionText = document.querySelector('.transcription-text').innerText;
+
+        copyButton.addEventListener('click', function() {
+            navigator.clipboard.writeText(transcriptionText).then(function() {
+                copyButton.textContent = 'Copied!';
+                setTimeout(function() {
+                    copyButton.textContent = 'Copy to Clipboard';
+                }, 2000);
+            }, function(err) {
+                console.error('Could not copy text: ', err);
+            });
+        });
+    });
+</script>
+{% endblock %}
